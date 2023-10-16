@@ -1,0 +1,127 @@
+/*Stili  generali della pagina*/
+
+body{
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 20px;
+    font-family: Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+}
+
+/*nav*/
+
+#nav{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    border: 2px black dashed;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    border-left: 4px black dashed;
+    border-right: 4px black dashed;
+    padding-left: 250px;
+    padding-right: 250px;
+    flex-wrap: wrap;
+}
+
+.text{
+    margin: 10px;
+    
+}
+
+/*header*/
+
+header{
+    background-color:aqua;
+    padding: 10px;
+}
+
+.container{
+    background-color: rgb(1, 1, 161);
+    height: 500px;
+    margin: 10px, 0px, 0px, 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background-color: palevioletred;
+    border: 2px black dashed;
+    margin: auto;
+    flex-basis: 60%;
+    height: 400px;
+}
+
+/*Main*/
+
+.container_dispari{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 600px;
+}
+
+.container_pari{
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    height: 600px;
+    flex-direction: row-reverse;
+}
+
+.primary_dispari{
+    background-color: rgb(45, 94, 226);
+    min-height: 500px;
+    flex-basis: 65%;
+    margin-left: 10%;
+    margin-top: 50px;
+    border: 2px dashed black;
+}
+
+.secondary_dispari{
+    background-color: pink;
+    min-height: 500px;
+    margin-right: 10%;
+    flex-basis: 35%;
+    margin-top: 50px;
+    border: 1px dashed black;
+    border-left: 2px dashed black;
+}
+
+.primary_pari{
+    background-color: rgb(45, 94, 226);
+    min-height: 500px;
+    flex-basis: 65%;
+    margin-right: 10%;
+    margin-top: 50px;
+    border: 2px dashed black;
+}
+
+.secondary_pari{
+    background-color: pink;
+    min-height: 500px;
+    margin-left: 10%;
+    flex-basis: 35%;
+    margin-top: 50px;
+    border: 2px dashed black;
+    border-left: 2px dashed black;
+}
+
+.container_bottom{
+
+}
+
