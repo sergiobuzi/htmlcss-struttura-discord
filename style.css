@@ -17,7 +17,7 @@ body{
 
 /*nav*/
 
-#nav{
+.top_nav{
     display: flex;
     flex-direction: row;
     width: 80%;
