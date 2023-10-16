@@ -18,54 +18,58 @@ body{
 /*nav*/
 
 #nav{
-    background-color: orange;
     display: flex;
     flex-direction: row;
     width: 80%;
     justify-content: space-between;
-    border: 2px black dashed;
     margin: auto;
     flex-wrap: wrap;
+    /*DEBUG*/
+    background-color: orange;
+    border: 2px black dashed;
 }
 
 .ul_top_nav{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    border-left: 4px black dashed;
-    border-right: 4px black dashed;
     padding-left: 250px;
     padding-right: 250px;
     flex-wrap: wrap;
+    /*DEBUG*/
+    border-left: 4px black dashed;
+    border-right: 4px black dashed;
 }
 
 .text{
-    margin: 10px;
-    
+    margin: 10px; 
 }
 
 /*header*/
 
 header{
-    background-color:aqua;
     padding: 10px;
+    /*DEBUG*/
+    background-color:aqua;
 }
 
 .container{
-    background-color: rgb(1, 1, 161);
     height: 500px;
     margin: 10px, 0px, 0px, 5px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    /*DEBUG*/
+    background-color: rgb(1, 1, 161);
 }
 
 .box{
-    background-color: palevioletred;
-    border: 2px black dashed;
     margin: auto;
     flex-basis: 60%;
     height: 400px;
+    /*DEBUG*/
+    background-color: palevioletred;
+    border: 2px black dashed;
 }
 
 /*Main*/
@@ -84,41 +88,45 @@ header{
 }
 
 .primary_dispari{
-    background-color: rgb(45, 94, 226);
     height: 500px;
     flex-basis: 65%;
     margin-left: 10%;
     margin-top: 50px;
+    /*DEBUG*/
     border: 2px dashed black;
+    background-color: rgb(45, 94, 226);
 }
 
 .secondary_dispari{
-    background-color: pink;
     height: 500px;
     margin-right: 10%;
     flex-basis: 35%;
     margin-top: 50px;
+    /*DEBUG*/
     border: 1px dashed black;
     border-left: 2px dashed black;
+    background-color: pink;
 }
 
 .primary_pari{
-    background-color: rgb(45, 94, 226);
     height: 500px;
     flex-basis: 65%;
     margin-right: 10%;
     margin-top: 50px;
+    /*DEBUG*/
+    background-color: rgb(45, 94, 226);
     border: 2px dashed black;
 }
 
 .secondary_pari{
-    background-color: pink;
     height: 500px;
     margin-left: 10%;
     flex-basis: 35%;
     margin-top: 50px;
+    /*DEBUG*/
     border: 2px dashed black;
     border-left: 2px dashed black;
+    background-color: pink;
 }
 
 .container_bottom{
@@ -127,14 +135,15 @@ header{
 }
 
 .big_box{
-    background-color: green;
     height: 900px;
     flex-basis: 100%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 50px;
-    border: 2px dashed black;
     margin-bottom: 50px;
+    /*DEBUG*/
+    background-color: green;
+    border: 2px dashed black;
 }
 
 /*footer*/
@@ -155,43 +164,48 @@ footer{
 }
 
 .collegamenti{
-    background-color: salmon;
     width: calc(100% / 6 * 2);
     min-height: 500px;
-    border: 2px dashed black;
     list-style-type: none;
+    /*DEBUG*/
+    background-color: salmon;
+    border: 2px dashed black;
 }
 
 .prodotto{
-    background-color: aquamarine;
     width: calc(100% / 6);
     min-height: 500px;
-    border: 2px dashed rgb(255, 255, 255);
     list-style-type: none;
+    /*DEBUG*/
+    background-color: aquamarine;
+    border: 1px dashed rgb(255, 255, 255);
 }
 
 .compagnia{
-    background-color: aquamarine;
     width: calc(100% / 6);
     min-height: 500px;
-    border: 2px dashed rgb(255, 255, 255);
     list-style-type: none;
+    /*DEBUG*/
+    border: 1px dashed rgb(255, 255, 255);
+    background-color: aquamarine;
 }
 
 .risorse{
-    background-color: aquamarine;
     width: calc(100% / 6);
     min-height: 500px;
-    border: 2px dashed rgb(255, 255, 255);
     list-style-type: none;
+    /*DEBUG*/
+    border: 1px dashed rgb(255, 255, 255);
+    background-color: aquamarine;
 }
 
 .norme{
-    background-color: aquamarine;
     width: calc(100% / 6);
     min-height: 500px;
-    border: 2px dashed rgb(255, 255, 255);
     list-style-type: none;
+    /*DEBUG*/
+    border: 1px dashed rgb(255, 255, 255);
+    background-color: aquamarine;
 }
 
 .bottom_footer{
@@ -200,8 +214,9 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: aquamarine;
     padding: 10px;
+    /*DEBUG*/
+    background-color: aquamarine;
 }
 
 
