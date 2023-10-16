@@ -172,40 +172,13 @@ footer{
     border: 2px dashed black;
 }
 
-.prodotto{
+.prodotto, .compagnia, .risorse, .norme{
     width: calc(100% / 6);
     min-height: 500px;
     list-style-type: none;
     /*DEBUG*/
     background-color: aquamarine;
     border: 1px dashed rgb(255, 255, 255);
-}
-
-.compagnia{
-    width: calc(100% / 6);
-    min-height: 500px;
-    list-style-type: none;
-    /*DEBUG*/
-    border: 1px dashed rgb(255, 255, 255);
-    background-color: aquamarine;
-}
-
-.risorse{
-    width: calc(100% / 6);
-    min-height: 500px;
-    list-style-type: none;
-    /*DEBUG*/
-    border: 1px dashed rgb(255, 255, 255);
-    background-color: aquamarine;
-}
-
-.norme{
-    width: calc(100% / 6);
-    min-height: 500px;
-    list-style-type: none;
-    /*DEBUG*/
-    border: 1px dashed rgb(255, 255, 255);
-    background-color: aquamarine;
 }
 
 .bottom_footer{
