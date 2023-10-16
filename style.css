@@ -36,9 +36,6 @@ body{
     padding-left: 250px;
     padding-right: 250px;
     flex-wrap: wrap;
-    /*DEBUG*/
-    border-left: 4px black dashed;
-    border-right: 4px black dashed;
 }
 
 .text{
@@ -53,7 +50,7 @@ header{
     background-color:aqua;
 }
 
-.container{
+.container_top{
     height: 500px;
     margin: 10px, 0px, 0px, 5px;
     margin-top: 10px;
@@ -74,73 +71,67 @@ header{
 
 /*Main*/
 
-.container_dispari{
+.container_main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    min-height: 500px;
+    align-items: center;
+}
+
+.box_main{
     background-color: rgb(255, 255, 255);
     display: flex;
     height: 600px;
 }
 
-.container_pari{
-    background-color: rgb(201, 201, 201);
+.box_main_gray{
+    background-color: rgb(204, 204, 204);
     display: flex;
     height: 600px;
-    flex-direction: row-reverse;
 }
 
-.primary_dispari{
+.container_main_gray{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    min-height: 500px;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+
+.primary{
     height: 500px;
     flex-basis: 65%;
-    margin-left: 10%;
-    margin-top: 50px;
     /*DEBUG*/
     border: 2px dashed black;
     background-color: rgb(45, 94, 226);
 }
 
-.secondary_dispari{
+.secondary{
     height: 500px;
-    margin-right: 10%;
     flex-basis: 35%;
-    margin-top: 50px;
     /*DEBUG*/
     border: 1px dashed black;
     border-left: 2px dashed black;
     background-color: pink;
 }
 
-.primary_pari{
-    height: 500px;
-    flex-basis: 65%;
-    margin-right: 10%;
-    margin-top: 50px;
-    /*DEBUG*/
-    background-color: rgb(45, 94, 226);
-    border: 2px dashed black;
-}
-
-.secondary_pari{
-    height: 500px;
-    margin-left: 10%;
-    flex-basis: 35%;
-    margin-top: 50px;
-    /*DEBUG*/
-    border: 2px dashed black;
-    border-left: 2px dashed black;
-    background-color: pink;
-}
+/*container  gande verde*/
 
 .container_bottom{
-    background-color: rgb(201, 201, 201);
+    background-color:rgb(204, 204, 204);
     display: flex;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .big_box{
-    height: 900px;
-    flex-basis: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: auto;
+    width: 80%;
+    height: 800px;
     /*DEBUG*/
     background-color: green;
     border: 2px dashed black;
@@ -191,8 +182,3 @@ footer{
     /*DEBUG*/
     background-color: aquamarine;
 }
-
-
-
-
-
